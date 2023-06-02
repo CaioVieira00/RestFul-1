@@ -62,7 +62,6 @@ app.delete('/produtos/:id', (req, res) => {
 // Inicializa o servidor HTTP na porta 3000
 
 const port = 3000;
-const servidor = "127.0.0.1";
 
 app.listen(port, function() {
 
